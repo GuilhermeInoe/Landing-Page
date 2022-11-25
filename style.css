@@ -27,7 +27,7 @@
 
 .cabeçalho-menu-item{
     font-family: 'Fira Sans Condensed', sans-serif;
-    color:white
+    color:white;
 }
 
 .conteudo{
@@ -134,6 +134,7 @@
 }
 
 .conteudo-historia-imagem{
+    max-width: 100%;
     padding-top: 48px;
     padding-right: 48px;
 }
@@ -152,4 +153,22 @@
     height: 96px;
     display: block;
     margin: 0 auto;
+}
+
+@media (max-width: 1100px) {
+
+.conteudo-historia{
+    width: 100%;
+}
+
+.conteudo-historia-imagem{
+    width: 100%;
+    display: none;
+}
+
+.conteudo-secundario-paragrafo{
+    width: 100%;
+}
+
+
 }
